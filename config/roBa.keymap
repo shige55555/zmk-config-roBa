@@ -125,8 +125,6 @@
 &trans             &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK     &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &kp LCTRL          &kp AT_SIGN      &kp GRAVE             &trans                 &trans           &trans      &trans  &trans                          &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
     };
 };
