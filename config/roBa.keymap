@@ -122,7 +122,7 @@
             bindings = <
 &kp LEFT_BRACKET   &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp POUND              &kp LEFT_BRACE                       &trans  &trans  &trans  &trans  &trans
 &kp RIGHT_BRACKET  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp RIGHT_BRACE  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp TILDE          &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans             &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK     &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &kp LCTRL          &kp AT_SIGN      &kp GRAVE             &trans                 &trans           &trans      &trans  &trans                          &trans
             >;
 
