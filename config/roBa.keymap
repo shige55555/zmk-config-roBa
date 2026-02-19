@@ -45,10 +45,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E   &kp R         &kp T                                             &kp Y      &kp U  &lt 5 I    &kp O    &kp P
-&mt LCTRL A       &kp S         &kp D   &kp F         &kp G        &kp LS(LG(S))         &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C   &kp V         &kp B        &kp LEFT_CONTROL      &kp SEMICOLON  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&mt LALT LANG2    &kp LEFT_WIN  &kp F7  &lt 7 ESCAPE  &lt 2 SPACE  &lt 4 TAB             &kp BACKSPACE  &kp ENTER                             &kp LANGUAGE_1
+&kp Q             &kp W         &kp E   &kp R         &kp T                                                  &kp Y      &kp U  &lt 5 I    &kp O    &kp P
+&mt LCTRL A       &kp S         &kp D   &kp F         &kp G        &kp LS(LG(S))         &lt 7 SEMICOLON     &kp H      &kp J  &kp K      &kp L    &mt MINUS RIGHT_CONTROL
+&mt LEFT_SHIFT Z  &kp X         &kp C   &kp V         &kp B        &kp LEFT_CONTROL      &lt 2 LEFT_CONTROL  &kp N      &kp M  &kp COMMA  &kp DOT  &mt SLASH RIGHT_SHIFT
+&mt LALT LANG2    &kp LEFT_WIN  &kp F7  &lt 7 ESCAPE  &lt 2 SPACE  &lt 4 TAB             &kp BACKSPACE       &kp ENTER                             &kp LANGUAGE_1
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -67,7 +67,7 @@
             bindings = <
 &kp LEFT_BRACKET   &kp EXCLAMATION   &kp DOUBLE_QUOTES     &kp HASH               &kp LEFT_BRACE                       &kp PLUS       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH
 &kp RIGHT_BRACKET  &kp DOLLAR        &kp PERCENT           &kp AMPERSAND          &kp RIGHT_BRACE  &trans      &trans  &kp COLON      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
-&kp TILDE          &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK     &trans      &trans  &kp SEMICOLON  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp UNDERSCORE
+&kp TILDE          &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK     &trans      &trans  &kp SEMICOLON  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL
 &kp CARET          &kp AT_SIGN       &kp GRAVE             &trans                 &trans           &trans      &trans  &trans                                                   &kp PIPE
             >;
         };
